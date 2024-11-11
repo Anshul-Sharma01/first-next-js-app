@@ -1,6 +1,11 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+    title: "About Page",
+    description: "This is a page for about section",
+};
+
+const about = () => {
     return(
         <>
             <h1 className="text-xl">
@@ -17,4 +22,4 @@ const page = () => {
 }
 
 
-export default page;
+export default about;
